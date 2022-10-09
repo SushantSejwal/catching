@@ -1,0 +1,75 @@
+.all-content-wrapper{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.all-content{
+    width: 80%;
+    margin: auto;
+}
+
+/* why here and why here text */
+.why-here{
+    background: #fff;
+    padding: 60px 30px 20px 30px;
+}
+.why-here-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px;
+    color: rgb(59, 59, 59);
+    letter-spacing: 0.5px;
+}
+
+/* before starting */
+
+.before-finding{
+    background: #F5F5F7;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}   
+
+.before-finding-text{
+    font-size: 20px;
+    margin: 10px 10px 30px 10px;
+}
+
+.before-learn{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.before-learn .heading{
+    background-image: linear-gradient(90deg,#5239d1,#8d38d1 40%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.before-learn .text{
+    padding: 10px 20px 50px 20px;
+}
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    .all-content{
+        width: 100% ;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+        .why-here{
+            padding: 60px 50px 20px 50px;
+        }
+    }

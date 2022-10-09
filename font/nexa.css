@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa-script/NexaScript-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa-script/NexaScript-Heavy.woff2') format('woff2');
+    font-weight:700;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa-script/NexaScript-Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa-script/NexaScript-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Nexa Script Semi';
+    src: url('nexa-script/NexaScript-SemiBold.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa-script/NexaScript-Thin.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: block;
+}
+

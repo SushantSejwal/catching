@@ -1,0 +1,87 @@
+:root{
+    --link: rgb(0, 102, 204);
+    --red: rgb(246, 62, 84);
+    --dark-blue: rgb(13, 19, 135);
+    --blue: rgb(2, 127, 255);
+    --light-blue: rgb(136, 118, 254);
+    --dark-teal: rgb(4, 156, 183);
+    --orange: rgb(230, 103, 2);
+    --dark-purple: rgb(141, 18, 135);
+    --purple: rgb(101, 41, 248);
+    --purple-2: rgb(215, 27, 206);
+    --turquoise: rgb(34, 148, 177);
+    --dark-green: rgb(12, 157, 70);
+    --indigo: rgb(61, 68, 195);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 17px;
+    font-family: 'Sushant', sans-serif;
+    color: #353535;
+    overflow-y: scroll;
+    line-height: 1.1;
+}
+
+.gudiya-nav-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+
+.gudiya-nav{
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.gudiya-nav-text{
+    font-family: "Nexa", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    color: var(--red);
+}
+
+.gudiya-nav-text-gudiya{
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: opacity 0.2 ease-in-out; 
+    -webkit-transition: opacity 0.2 ease-in-out; 
+    -moz-transition: opacity 0.2 ease-in-out; 
+    -ms-transition: opacity 0.2 ease-in-out; 
+    -o-transition: opacity 0.2 ease-in-out;
+    /* background-image: linear-gradient(90deg,#5239d1,#8d38d1 40%); */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+.gudiya-nav-text-pragati{
+    transition: opacity 0.2 ease-in-out; 
+    -webkit-transition: opacity 0.2 ease-in-out; 
+    -moz-transition: opacity 0.2 ease-in-out; 
+    -ms-transition: opacity 0.2 ease-in-out; 
+    -o-transition: opacity 0.2 ease-in-out;
+    /* background-image: linear-gradient(90deg,#5239d1,#8d38d1 40%); */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}

@@ -1,6 +1,4 @@
 ! function (){
-
-    
     let gudiya = document.querySelector(".gudiya-nav-text-gudiya"); 
     let pragati = document.querySelector(".gudiya-nav-text-pragati"); 
 
@@ -27,5 +25,24 @@
             pragati.style.opacity = 1;
         }
     });
+
+}();
+
+! function(){
+
+    let activate_btn = document.getElementsByClassName('see-how-to-find');
+    
+    for (let i = 0; i < activate_btn.length; i++){
+        activate_btn[i].addEventListener('click', (e) =>{
+            let to_add_class_ele = e.target.nextSibling.nextSibling;
+            var cancel_btn = to_add_class_ele.firstChild.nextSibling;
+            console.log(cancel_btn)
+            to_add_class_ele.classList.add('active');
+            cancel_btn.addEventListener('click', () => {
+                to_add_class_ele.classList.remove('active');
+            });
+        });
+       
+    }
 
 }();

@@ -1,10 +1,5 @@
 .all-content-wrapper{
-    max-width: 1300px;
-    margin: auto;
-}
-
-.all-content{
-    width: 80%;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -26,7 +21,6 @@
 .before-finding{
     background: #F5F5F7;
     margin: 20px;
-    padding: 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -36,7 +30,8 @@
 
 .before-finding-text{
     font-size: 20px;
-    margin: 10px 10px 30px 10px;
+    margin: 30px 10px 20px 10px;
+    padding: 20px;
 }
 
 .before-learn{
@@ -51,25 +46,93 @@
     -webkit-text-fill-color: transparent;
     font-size: 20px;
     font-weight: 600;
+    padding: 20px;
 }
 
 .before-learn .text{
-    padding: 10px 20px 50px 20px;
+    padding: 10px 40px 50px 40px;
+}
+
+/* settings */
+.settings-to-do .heading{
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.settings{
+    padding: 10px;
+}
+
+.settings-to-do .settings .setting-text{
+    font-size: 18px;
+    padding: 20px 30px;
+}
+
+.setting-img{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 100px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(183, 183, 183, 0.5);
+    /* padding: 10px; */
+}
+
+.files-app{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* FILES APPS SETTINGS */
+.files-settings{
+    padding: 20px 10px 20px 10px;
+}
+
+.files-settings .text{
+    padding: 20px;
+    font-size: 21px;
+}
+
+.files-settings .step{
+    font-size: 23px;
+    padding: 80px 20px 10px 20px;
+}
+.files-settings .sixth-2{
+    padding: 10px 20px;
+}
+.files-settings .step-img{
+    width: calc(100% - 20px);
+    max-width: 1000px;
+    min-width: 100px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(156, 156, 156);
+    margin: 10px;
 }
 
 
 
-/* Media queries */
 
+.all-content{
+width: 80%;
+margin: auto;
+}
+/* Media queries */
+@media screen and (min-width: 769px) {
+
+    .why-here{
+        padding: 60px 50px 20px 50px;
+    }
+}
 @media screen and (max-width: 768px) {
     .all-content{
         width: 100% ;
     }
 }
-
-
-@media screen and (min-width: 769px) {
-        .why-here{
-            padding: 60px 50px 20px 50px;
-        }
-    }

@@ -1,18 +1,19 @@
-:root{
-    --link: rgb(0, 102, 204);
-    --red: rgb(246, 62, 84);
-    --dark-blue: rgb(13, 19, 135);
-    --blue: rgb(2, 127, 255);
-    --light-blue: rgb(136, 118, 254);
-    --dark-teal: rgb(4, 156, 183);
-    --orange: rgb(230, 103, 2);
-    --dark-purple: rgb(141, 18, 135);
-    --purple: rgb(101, 41, 248);
-    --purple-2: rgb(215, 27, 206);
-    --turquoise: rgb(34, 148, 177);
-    --dark-green: rgb(12, 157, 70);
-    --indigo: rgb(61, 68, 195);
-}
+    :root{
+        --link: #2997ff;
+        --red: #ff453a;
+        --orange: #ff9f0a;
+        --yellow: #ffd60a;
+        --green: #32d74b;
+        --mint: #66d4cf;
+        --teal: #6ac4dc;
+        --cyan: #5ac8f5;
+        --blue: #0a84ff;
+        --indigo: #5e5ce6;
+        --purple: #bf5af2;
+        --pink: #ff375f;
+        --brown: #ac8e68;
+        --grey: #989898;
+    }
 
 *{
     padding: 0px;
@@ -22,7 +23,8 @@
 body{
     font-size: 17px;
     font-family: 'Sushant', sans-serif;
-    color: #353535;
+    color: rgb(220, 220, 220);
+    background: #080808;
     overflow-y: scroll;
     line-height: 1.1;
 }
@@ -33,7 +35,7 @@ body{
     right: 0;
     left: 0;
     width: 100%;
-    background: rgb(255, 255, 255, 0.6);
+    background: rgba(20, 20, 20, 0.6);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     user-select: none;
@@ -47,16 +49,15 @@ body{
 .gudiya-nav{
     text-align: center;
     margin: 0px 10px;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
+    padding: 12px 20px;
 }
 
 .gudiya-nav-text{
     font-family: "Nexa", sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 600;
     position: relative;
-    color: var(--red);
+    color: var(--pink);
 }
 
 .gudiya-nav-text-gudiya{

@@ -1,135 +1,21 @@
 .finding-stuff{
     padding: 20px;
     margin: 20px;
-    background: #f0f1f3;
+    background: #151515;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .finding-stuff .heading{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 500;
     text-align: center;
-    padding: 10px
+    padding: 20px;
+    color: var(--purple);
 }
 .finding-stuff .text{
     font-size: 20px;
-    padding: 10px;
-}
-
-.finding-stuff .see-how-to-find{
-    color: var(--link);
-    text-align: center;
-    font-size: 22px;
-    padding: 30px 10px;
-    cursor: pointer;
-}
-
-/* see how wrapper */
-.see-how-wrapper{
-    transform: translatey(115vh);
-    transition: transform 0.5s ease-in-out;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    background-color: rgba(166, 166, 166, 0.566);
-    backdrop-filter: saturate(180%) blur(20px);
-    padding: 10px;
-    -webkit-transform: translatey(115vh);
-    -moz-transform: translatey(115vh);
-    -ms-transform: translatey(115vh);
-    -o-transform: translatey(115vh);
-    -webkit-transition: transform 0.5s ease-in-out;
-    -moz-transition: transform 0.5s ease-in-out;
-    -ms-transition: transform 0.5s ease-in-out;
-    -o-transition: transform 0.5s ease-in-out;
-}
-.see-how-wrapper.active{
-    transform: translatey(0vh);
-    -webkit-transform: translatey(0vh);
-    -moz-transform: translatey(0vh);
-    -ms-transform: translatey(0vh);
-    -o-transform: translatey(0vh);
-}
-.see-how{
-    background: rgba(255, 255, 255, 0.705);
-    backdrop-filter: saturate(180%) blur(20px);
-    height: calc(100vh - 60px);
-    overflow-y: auto;
-    max-width: 800px;
-    margin: auto;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    box-shadow: 0px 0xp 20px rgb(138, 138, 138);
     padding: 20px 10px;
-}
-.see-how-wrapper .cancel{
-    background: rgba(255, 255, 255, 0.689);
-    backdrop-filter: saturate(180%) blur(20px);
-    width: 44px;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    font-size: 25px;
-    cursor: pointer;
-    z-index: 999;
-}
-
-.see-how .header{
-    display: grid;
-    grid-template-columns: auto 50px;
-}
-.see-how .header .header-text{
-    font-size: 35px;
-    text-align: center;
-    padding: 40px 20px;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: var(--indigo);
-}
-
-.see-how .body .learn .text{
-    font-size: 20px;
-}
-
-.see-how .body .learn .list .heading{
-    text-align: left;
-    padding: 30px 30px 0px 30px;
-    font-size: 22px;
-    font-weight: 500;
-}
-.see-how .body .learn .list .item{
-    text-align: left;
-    padding: 0px 40px 0px 90px;
-    font-size: 18px;
-}
-.see-how .body .learn .list .item:last-child{
-    padding-bottom: 40px;
-}
-
-.see-how .body .learn .img{
-    max-width: 800px;
-    width: 100%;
-    box-shadow: 0px 0px 15px #818181b8;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.see-how .body .learn .text{
-    padding: 20px 10px;
-    line-height: 1.2;
 }

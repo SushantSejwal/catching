@@ -5,21 +5,25 @@
 
 /* why here and why here text */
 .why-here{
-    background: #fff;
-    padding: 60px 30px 20px 30px;
+    background: #151515;
+    margin: 70px 20px 20px 20px;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .why-here-text{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
     margin: 15px 0px;
-    color: rgb(59, 59, 59);
     letter-spacing: 0.5px;
 }
 
 /* before starting */
-
 .before-finding{
-    background: #F5F5F7;
+    background: #151515;
     margin: 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -29,93 +33,226 @@
 }   
 
 .before-finding-text{
-    font-size: 20px;
+    font-size: 22px;
     margin: 30px 10px 20px 10px;
-    padding: 20px;
+    padding: 30px 20px;
 }
+
+/* learn */
 
 .before-learn{
     font-size: 18px;
-    padding-bottom: 20px;
+    margin: 20px;
+    background: #151515;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.main-heading{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 10px;
+    color: var(--purple);
 }
 
 .before-learn .heading{
-    background-image: linear-gradient(90deg,#5239d1,#8d38d1 40%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
 }
 
 .before-learn .text{
+    font-weight: 300;
+    line-height: 1.1;
+    word-spacing: 1px;
+    /* letter-spacing: 1px; */
     padding: 10px 40px 50px 40px;
 }
-
-/* settings */
-.settings-to-do .heading{
-    font-size: 25px;
-    padding: 20px;
-    font-weight: 500;
+.before-learn-item-2 .text{
+    padding: 10px 40px 10px 40px;
+}
+.before-learn-item-3 .heading{
+    padding: 50px 20px 10px 20px;
 }
 
-.settings{
+/* ======= See how =======*/
+.see-how-to-find{
+    color: var(--link);
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+.see-how-wrapper{
+    max-width: 800px;
+    margin: auto;
+    position: fixed;
+    top: 20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    background-color: #1d1d1de1;
+    backdrop-filter: saturate(180%) blur(20px);
+    height: cacl(100vh - 20px);
+    overflow: scroll;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    transform: translatey(115vh);
+    -webkit-transform: translatey(115vh);
+    -moz-transform: translatey(115vh);
+    -ms-transform: translatey(115vh);
+    -o-transform: translatey(115vh);
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
+}
+.see-how-wrapper.active{
+    transform: translatey(0vh);
+    -webkit-transform: translatey(0vh);
+    -moz-transform: translatey(0vh);
+    -ms-transform: translatey(0vh);
+    -o-transform: translatey(0vh);
+}
+.see-how-wrapper .cancel{
+    background: #1d1d1d;
+    color: rgb(167, 167, 167);
+    backdrop-filter: saturate(180%) blur(20px);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0px;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 99999;
+    border-bottom: 1px solid #2b2b2b;
+}
+.see-how-wrapper .header .header-text{
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--indigo);
+}
+
+.see-how-wrapper .body{
+    padding: 20px;
+}
+
+.see-how-wrapper .body .list .list-container{
+    padding: 0px 20px 20px 20px;
+}
+.see-how-wrapper .body .list .heading{
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.see-how-wrapper .body .list .item{
+    text-align: left;
+    padding: 0px 40px 0px 90px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.see-how-wrapper .body .list .item:last-child{
+    padding-bottom: 40px;
+}
+
+.see-how-wrapper .body .text{
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+}
+
+.see-how-wrapper .body .steps{
+    padding: 20px 0px;
+    
+}
+
+.see-how-wrapper .body .step-heading{
     padding: 10px;
+    font-size: 18px;
+
+}
+
+.see-how-wrapper .body .step-img .img,
+.see-how-wrapper .body .see-img .img{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px #0e0e0e;
+    margin: 10px 0px;
+}
+
+
+
+
+/* =========================settings ========================= */
+.settings-to-do{
+    margin: 20px;
+    background: #151515;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+}
+
+.settings-to-do .heading{
+    color: var(--purple);
+    font-size: 35px;
+    padding:30px 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.settings .header{
+    padding: 20px 10px;
+    color: var(--indigo);
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .settings-to-do .settings .setting-text{
     font-size: 18px;
-    padding: 20px 30px;
+    padding: 10px 30px 20px 30px;
+    font-weight: 300;
 }
 
 .setting-img{
     width: 100%;
     max-width: 1000px;
     min-width: 100px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(183, 183, 183, 0.5);
-    /* padding: 10px; */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
-.files-app{
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-/* FILES APPS SETTINGS */
-.files-settings{
-    padding: 20px 10px 20px 10px;
-}
-
-.files-settings .text{
-    padding: 20px;
-    font-size: 21px;
-}
-
-.files-settings .step{
-    font-size: 23px;
-    padding: 80px 20px 10px 20px;
-}
-.files-settings .sixth-2{
-    padding: 10px 20px;
-}
-.files-settings .step-img{
-    width: calc(100% - 20px);
-    max-width: 1000px;
-    min-width: 100px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0px 0px 10px rgb(156, 156, 156);
-    margin: 10px;
-}
 
 
 
@@ -125,12 +262,12 @@ width: 80%;
 margin: auto;
 }
 /* Media queries */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
 
     .why-here{
         padding: 60px 50px 20px 50px;
     }
-}
+} */
 @media screen and (max-width: 768px) {
     .all-content{
         width: 100% ;

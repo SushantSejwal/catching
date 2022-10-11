@@ -20,6 +20,14 @@
     margin: 0px;
 }
 
+a{
+    color: var(--link);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 body{
     font-size: 17px;
     font-family: 'Sushant', sans-serif;

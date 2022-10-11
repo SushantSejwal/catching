@@ -82,7 +82,7 @@
 /* ======= See how =======*/
 .see-how-to-find{
     color: var(--link);
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     padding: 20px 10px;
     cursor: pointer;
@@ -91,7 +91,7 @@
     max-width: 800px;
     margin: auto;
     position: fixed;
-    top: 20px;
+    top: 10px;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -110,11 +110,11 @@
     -moz-transform: translatey(115vh);
     -ms-transform: translatey(115vh);
     -o-transform: translatey(115vh);
-    border-radius: 20px 20px 0px 0px;
-    -webkit-border-radius: 20px 20px 0px 0px;
-    -moz-border-radius: 20px 20px 0px 0px;
-    -ms-border-radius: 20px 20px 0px 0px;
-    -o-border-radius: 20px 20px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
 }
 .see-how-wrapper.active{
     transform: translatey(0vh);
@@ -124,7 +124,7 @@
     -o-transform: translatey(0vh);
 }
 .see-how-wrapper .cancel{
-    background: #1d1d1d;
+    background: #252525;
     color: rgb(167, 167, 167);
     backdrop-filter: saturate(180%) blur(20px);
     width: 100%;
@@ -204,6 +204,21 @@
     -o-border-radius: 5px;
     box-shadow: 0px 0px 20px 2px #0e0e0e;
     margin: 10px 0px;
+}
+.see-how-wrapper .body .see-img, 
+.see-how-wrapper .body .step-img{
+    text-align: center;
+}
+.see-how-wrapper .body .see-img .img.img-small{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px #0e0e0e;
+    margin: 10px auto;
 }
 
 

@@ -99,7 +99,7 @@
     background-color: #1d1d1de1;
     backdrop-filter: saturate(180%) blur(20px);
     height: cacl(100vh - 20px);
-    overflow: scroll;
+    overflow-y: scroll;
     transition: transform 0.5s ease-in-out;
     -webkit-transition: transform 0.5s ease-in-out;
     -moz-transition: transform 0.5s ease-in-out;
